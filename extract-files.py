@@ -80,7 +80,7 @@ blob_fixups: blob_fixups_user_type = {
     ): blob_fixup()
         .regex_replace('.+media_codecs_(google_audio|google_c2|google_telephony|vendor_audio).+\n', ''),
     'vendor/etc/msm_irqbalance.conf': blob_fixup()
-        .regex_replace('IGNORED_IRQ=19,21,39$', 'IGNORED_IRQ=19,21,39,115,332'),
+        .regex_replace('IGNORED_IRQ=19,21,39$', 'IGNORED_IRQ=19,21,38,115,332'),
     'vendor/etc/seccomp_policy/atfwd@2.0.policy': blob_fixup()
         .add_line_if_missing('gettid: 1'),
     (
