@@ -87,13 +87,6 @@ BOARD_HAVE_BLUETOOTH_QCOM := true
 # Camera
 TARGET_USES_QTI_CAMERA_DEVICE := true
 
-# Dex
-ifeq ($(HOST_OS),linux)
-  ifneq ($(TARGET_BUILD_VARIANT),eng)
-    WITH_DEXPREOPT ?= true
-  endif
-endif
-
 # Display
 MAX_VIRTUAL_DISPLAY_DIMENSION := 4096
 NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
