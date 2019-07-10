@@ -15,6 +15,7 @@ debug.renderengine.backend=skiaglthreaded
 debug.sf.enable_transaction_tracing=false
 debug.sf.disable_client_composition_cache=1
 debug.sf.hw=1
+debug.stagefright.c2inputsurface=-1
 drm.service.enabled=true
 keyguard.no_require_sim=true
 media.wfd.max_resolution=7
