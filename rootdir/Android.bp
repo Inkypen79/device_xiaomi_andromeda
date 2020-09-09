@@ -137,6 +137,12 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
+    name: "fstab.zram",
+    src: "etc/fstab.zram",
+    soc_specific: true,
+}
+
+prebuilt_etc {
     name: "init.batteryd.rc",
     src: "etc/init.batteryd.rc",
     sub_dir: "init/hw",

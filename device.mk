@@ -366,6 +366,7 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     fstab.qcom \
     fstab.qcom.ramdisk \
+    fstab.zram \
     ueventd.qcom.rc \
     usb_compositions.conf
 
