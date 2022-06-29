@@ -3,10 +3,12 @@
 # specify 'check', and must come before any filesystems that do specify 'check'
 
 #<src>                                      <mnt_point>             <type>  <mnt_flags and options>                                                                           <fs_mgr_flags>
+system                                       /system                 ext4    ro,barrier=1,discard                                                                              wait,avb,logical,first_stage_mount,avb_keys=/avb/q-gsi.avbpubkey:/avb/r-gsi.avbpubkey:/avb/s-gsi.avbpubkey
+system_ext                                   /system_ext             ext4    ro,barrier=1,discard                                                                              wait,avb,logical,first_stage_mount
+product                                      /product                ext4    ro,barrier=1,discard                                                                              wait,avb,logical,first_stage_mount
+vendor                                       /vendor                 ext4    ro,barrier=1,discard                                                                              wait,avb,logical,first_stage_mount
+odm                                          /odm                    ext4    ro,barrier=1,discard                                                                              wait,avb,logical,first_stage_mount
 /dev/block/by-name/metadata                  /metadata               ext4    noatime,nosuid,nodev,discard,data=journal,commit=1                                                wait,check,formattable,first_stage_mount
-/dev/block/by-name/system                    /system                 ext4    ro,barrier=1,discard                                                                              wait,avb=vbmeta,first_stage_mount
-/dev/block/by-name/cust                      /system_ext             ext4    ro,barrier=1,discard                                                                              wait,avb,first_stage_mount
-/dev/block/by-name/vendor                    /vendor                 ext4    ro,barrier=1,discard                                                                              wait,avb,first_stage_mount
 /dev/block/by-name/vbmeta                    /vbmeta                 emmc    defaults                                                                                          first_stage_mount
 /dev/block/bootdevice/by-name/boot           /boot                   emmc    defaults                                                                                          recoveryonly
 /dev/block/bootdevice/by-name/cache          /cache                  ext4    nosuid,noatime,nodev,barrier=0                                                                    wait
