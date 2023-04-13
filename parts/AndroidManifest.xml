@@ -26,8 +26,6 @@
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
-    <protected-broadcast android:name="com.android.systemui.doze.pulse" />
-
     <application
         android:label="@string/device_settings_app_name"
         android:persistent="true">
@@ -59,11 +57,6 @@
                        android:resource="@string/dirac_summary" />
         </activity>
 
-        <service android:name=".doze.DozeService"
-                 android:exported="true"
-                 android:permission="XiaomiDozeService">
-        </service>
-
         <service
             android:name=".display.DcDimmingTileService"
             android:exported="true"
@@ -75,19 +68,6 @@
                     android:name="android.service.quicksettings.action.QS_TILE"/>
             </intent-filter>
         </service>
-
-        <activity
-            android:name=".doze.DozeSettingsActivity"
-            android:exported="true"
-            android:label="@string/ambient_display_title"
-            android:theme="@style/Theme.SubSettingsBase">
-            <intent-filter>
-                <action android:name="com.android.settings.action.IA_SETTINGS" />
-            </intent-filter>
-            <meta-data
-                android:name="com.android.settings.category"
-                android:value="com.android.settings.category.ia.display" />
-        </activity>
 
         <service
             android:name=".dirac.DiracTileService"
