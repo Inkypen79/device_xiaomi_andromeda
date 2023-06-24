@@ -369,10 +369,6 @@ on post-fs-data
     mkdir /data/vendor/qti-logkit/socket-public/ 2750 system diag
     mkdir /data/vendor/qti-logkit/logdata/ 2750 system shell
 
-    #Create SWAP related dirs
-    mkdir /data/vendor/swap 0770 root system
-    chmod 2770 /data/vendor/swap
-
     #add torch node for cit
     chown system system /sys/class/leds/led:torch_0/brightness
     chown system system /sys/class/leds/led:torch_1/brightness
