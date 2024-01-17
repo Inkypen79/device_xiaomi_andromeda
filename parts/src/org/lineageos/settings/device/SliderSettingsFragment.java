@@ -23,13 +23,13 @@ import android.view.MenuItem;
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 import androidx.preference.Preference.OnPreferenceChangeListener;
-import androidx.preference.PreferenceFragment;
+import androidx.preference.PreferenceFragmentCompat;
 import androidx.preference.SwitchPreferenceCompat;
 
 import org.lineageos.settings.R;
 import org.lineageos.settings.utils.FileUtils;
 
-public class SliderSettingsFragment extends PreferenceFragment implements
+public class SliderSettingsFragment extends PreferenceFragmentCompat implements
         OnPreferenceChangeListener {
 
     private ListPreference mSoundPreference;
@@ -42,7 +42,7 @@ public class SliderSettingsFragment extends PreferenceFragment implements
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
-        addPreferencesFromResource(R.xml.slider_settings);
+        setPreferencesFromResource(R.xml.slider_settings, rootKey);
         mSliderPreference = (SwitchPreferenceCompat) findPreference(SLIDER_DISABLE_KEY);
         mSliderPreference.setEnabled(true);
         mSliderPreference.setOnPreferenceChangeListener(this);
