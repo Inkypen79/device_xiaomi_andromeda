@@ -24,7 +24,7 @@ import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.PreferenceFragment;
-import androidx.preference.SwitchPreference;
+import androidx.preference.SwitchPreferenceCompat;
 
 import org.lineageos.settings.R;
 import org.lineageos.settings.utils.FileUtils;
@@ -33,7 +33,7 @@ public class SliderSettingsFragment extends PreferenceFragment implements
         OnPreferenceChangeListener {
 
     private ListPreference mSoundPreference;
-    private SwitchPreference mSliderPreference;
+    private SwitchPreferenceCompat mSliderPreference;
 
     private static final String SLIDER_DISABLE_KEY = "slider_disable";
     private static final String SLIDER_DISABLE_PROPERTY = "persist.slider.disable";
@@ -43,7 +43,7 @@ public class SliderSettingsFragment extends PreferenceFragment implements
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         addPreferencesFromResource(R.xml.slider_settings);
-        mSliderPreference = (SwitchPreference) findPreference(SLIDER_DISABLE_KEY);
+        mSliderPreference = (SwitchPreferenceCompat) findPreference(SLIDER_DISABLE_KEY);
         mSliderPreference.setEnabled(true);
         mSliderPreference.setOnPreferenceChangeListener(this);
 

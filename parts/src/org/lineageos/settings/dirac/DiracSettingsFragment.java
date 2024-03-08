@@ -26,7 +26,7 @@ import android.widget.CompoundButton;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceFragment;
-import androidx.preference.SwitchPreference;
+import androidx.preference.SwitchPreferenceCompat;
 import androidx.preference.ListPreference;
 
 import com.android.settingslib.widget.MainSwitchPreference;
