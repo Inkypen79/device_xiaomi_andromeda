@@ -8,6 +8,9 @@ DEVICE_PATH := device/xiaomi/andromeda
 BOARD_VENDOR := xiaomi
 BUILD_BROKEN_DUP_RULES := true
 
+# A/B
+AB_OTA_UPDATER := false
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-2a-dotprod
