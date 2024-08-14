@@ -1,4 +1,5 @@
 #============= vendor_init ==============
 allow vendor_init persist_debug_prop:file read;
+allow vendor_init proc_sched:file w_file_perms;
 allow vendor_init vendor_camera_prop:property_service set;
 allow vendor_init vendor_init_prop:file read;

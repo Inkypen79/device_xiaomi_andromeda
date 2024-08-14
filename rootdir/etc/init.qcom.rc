@@ -1056,7 +1056,7 @@ on property:vendor.display.lcd_density=*
 # Logcat dump daemon, dumps logs to logdump partition
 service logdumpd /system/bin/logcat -b all -v threadtime -D -w /dev/block/bootdevice/by-name/logdump
     class core
-    writepid /dev/cpuset/system-background/tasks
+    task_profiles ServiceCapacityLow
     seclabel u:r:logdumpd:s0
     disabled
 

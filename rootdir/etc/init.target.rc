@@ -34,16 +34,12 @@ import init.batterysecret.rc
 
 on early-init
     exec u:r:vendor_modprobe:s0 -- /vendor/bin/modprobe -a -d /vendor/lib/modules adsp_loader_dlkm apr_dlkm cs35l41_dlkm hdmi_dlkm machine_dlkm mbhc_dlkm native_dlkm pinctrl_wcd_dlkm platform_dlkm q6_dlkm q6_notifier_dlkm q6_pdr_dlkm stub_dlkm swr_ctrl_dlkm swr_dlkm tas2557_dlkm tfa98xx_dlkm usf_dlkm wcd934x_dlkm wcd9360_dlkm wcd9xxx_dlkm wcd_core_dlkm wcd_cpe_dlkm wcd_spi_dlkm wglink_dlkm wsa881x_dlkm
-    write /proc/sys/kernel/sched_boost 1
 
 on init
-    write /dev/stune/foreground/schedtune.sched_boost_no_override 1
-    write /dev/stune/top-app/schedtune.sched_boost_no_override 1
-    write /dev/stune/schedtune.colocate 0
-    write /dev/stune/background/schedtune.colocate 0
-    write /dev/stune/system-background/schedtune.colocate 0
-    write /dev/stune/foreground/schedtune.colocate 0
-    write /dev/stune/top-app/schedtune.colocate 1
+    # Uclamp tuning
+    write /proc/sys/kernel/sched_util_clamp_min_rt_default 96
+    write /proc/sys/kernel/sched_util_clamp_min 128
+
     write /sys/module/qpnp_rtc/parameters/poweron_alarm 1
     wait /dev/block/platform/soc/1d84000.ufshc
     symlink /dev/block/platform/soc/1d84000.ufshc /dev/block/bootdevice
