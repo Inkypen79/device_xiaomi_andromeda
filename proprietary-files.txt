@@ -971,7 +971,6 @@ vendor/lib/libdsd2pcm.so|c5ab1afd7a5a23bf83d80b5ac74247c3dd2085af
 vendor/lib/libmm-color-convertor.so|904f9daeca6323b7d240c2f640a92852bac88146
 vendor/lib/libmulawdec.so|89ebb1d9e77911f1abe37405016839d8436a9825
 vendor/lib/libqcodec2.so|c5673b5f377fc855f1467ea2b3c3ed47ca68bbfb
-vendor/lib/libstagefright_soft_qtiflacdec.so|d7a6b0b4942f223d82370f6da54be53cd54de89c
 vendor/lib/libvppclient.so|ad6b390270d9dab83f5501e30d7b05f0a0120882
 vendor/lib/libvpphcp.so|91bfde32023ba6c65d80a4ec56c33bbc972f1251
 vendor/lib/libvpphvx.so|32f90b9809ea221f0856f0a3563511cf54d7e9f8
@@ -995,7 +994,6 @@ vendor/lib64/libOmxWmaDec.so|46e5cc33f54a863f499c73302b679cb81fead0c7
 vendor/lib64/libmm-color-convertor.so|ade617dc02ec472e68755568d6295ab328aa97be
 vendor/lib64/libmulawdec.so|9a21d843c7bd2a516e0f1ce375855b767947b314
 vendor/lib64/libqcodec2.so|ebcb7ae53c292d689b57450120e280c5797cfaa1
-vendor/lib64/libstagefright_soft_qtiflacdec.so|8531b262078659ec4f63f39a69c24605d4a0cd90
 vendor/lib64/libvppclient.so|d21711ec814b89213c4a014fc266606dfcd671b3
 vendor/lib64/libvpphcp.so|6a2580bde806136a150b12cd67b287c8f6709f85
 vendor/lib64/libvpphvx.so|449c9d5448081aed1191c0478cd1e236eabf2a26
