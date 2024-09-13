@@ -58,6 +58,9 @@ function blob_fixup() {
         vendor/etc/media_codecs.xml|vendor/etc/media_codecs_vendor.xml)
             sed -Ei "/media_codecs_(google_audio|google_c2|google_telephony|vendor_audio)/d" "${2}"
             ;;
+        vendor/lib64/libwvhidl.so)
+            "${PATCHELF}" --replace-needed "libcrypto.so" "libcrypto-v33.so" "${2}"
+            ;;
     esac
 }
 
