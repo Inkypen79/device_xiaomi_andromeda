@@ -59,18 +59,10 @@ PRODUCT_PACKAGES += \
     audio.bluetooth.default \
     audio.usb.default \
     audio.r_submix.default \
-    audio.primary.msmnile \
     sound_trigger.primary.msmnile
 
 PRODUCT_PACKAGES += \
     libaudio-resampler \
-    libbatterylistener \
-    libcomprcapture \
-    libexthwplugin \
-    libhdmiedid \
-    libhfp \
-    libsndmonitor \
-    libspkrprot \
     libqcomvisualizer \
     libqcomvoiceprocessing \
     libqcompostprocbundle \
@@ -107,7 +99,6 @@ PRODUCT_COPY_FILES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
-    liba2dpoffload \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor \
     vendor.qti.hardware.bluetooth_audio@2.1.vendor \
     vendor.qti.hardware.bluetooth_dun@1.0.vendor \

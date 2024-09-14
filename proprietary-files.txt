@@ -152,8 +152,22 @@ vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so|ece3dafc4447e8302109851c3a
 vendor/bin/hw/vendor.qti.hardware.bluetooth_dun@1.0-service
 vendor/etc/init/vendor.qti.hardware.bluetooth_dun@1.0-service.rc
 vendor/lib/liba2dpoffload.so
+vendor/lib/libbatterylistener.so
+vendor/lib/libcomprcapture.so
+vendor/lib/libexthwplugin.so
+vendor/lib/libhdmiedid.so
+vendor/lib/libhfp.so
+vendor/lib/libsndmonitor.so
+vendor/lib/libspkrprot.so
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_dun@1.0-impl.so
 vendor/lib64/liba2dpoffload.so
+vendor/lib64/libbatterylistener.so
+vendor/lib64/libcomprcapture.so
+vendor/lib64/libexthwplugin.so
+vendor/lib64/libhdmiedid.so
+vendor/lib64/libhfp.so
+vendor/lib64/libsndmonitor.so
+vendor/lib64/libspkrprot.so
 
 # Camera - from raphael-user-11-RKQ1.200826.002-21.1.26-release-keys
 system_ext/framework/camerax-vendor-extensions.jar|1362060bfc28b0152c3987912d8adaedb8d2415f
