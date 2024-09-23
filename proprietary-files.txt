@@ -981,16 +981,6 @@ vendor/lib/vendor.qti.hardware.vpp@1.1.so|3e0467d0c30bb6cccab12d2e67dacc5ea852b3
 vendor/lib/vendor.qti.hardware.vpp@1.2.so|d1226cfbeee864b7cac52bcee37fdf4524892fd6
 vendor/lib/vendor.qti.hardware.vpp@1.3.so|6ff4979c9632ce9f244aeba7a0804332328f3fa9
 vendor/lib64/libI420colorconvert.so|ea24367de946f2c2a7f81b78c0a805edf8fd2d64
-vendor/lib64/libOmxAacDec.so|4e419724fb940a1fb93b018028dbf3ae6bd9e6ea
-vendor/lib64/libOmxAlacDec.so|9182e31c172ca4794cfccc557e497b4e43bd08ef
-vendor/lib64/libOmxAmrDec.so|f94271e8c1d58d4db9eea90e41c0d64773953d07
-vendor/lib64/libOmxAmrwbplusDec.so|31bbb7fb8b5fe5f4c5c30c39b67300bf0d0cc148
-vendor/lib64/libOmxApeDec.so|f001e769e861a90c568635e32d445bd6e3b782ee
-vendor/lib64/libOmxEvrcDec.so|c46237c40fc9ca24109d55dd82c64137768d68c5
-vendor/lib64/libOmxG711Dec.so|e321b72ebf4cf36b3e7b7ff33a3e00870cd3a461
-vendor/lib64/libOmxQcelp13Dec.so|1e428b6dbd8a3f010c1f5fa208a14c362a502cf6
-vendor/lib64/libOmxVpp.so|23ae4cd2860131786e3b34ed380eb81fd849cf6c
-vendor/lib64/libOmxWmaDec.so|46e5cc33f54a863f499c73302b679cb81fead0c7
 vendor/lib64/libmm-color-convertor.so|ade617dc02ec472e68755568d6295ab328aa97be
 vendor/lib64/libmulawdec.so|9a21d843c7bd2a516e0f1ce375855b767947b314
 vendor/lib64/libqcodec2.so|ebcb7ae53c292d689b57450120e280c5797cfaa1
