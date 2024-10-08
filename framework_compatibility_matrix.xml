@@ -132,6 +132,7 @@
     </hal>
     <hal format="aidl" optional="true">
         <name>android.hardware.light</name>
+        <version>2</version>
         <interface>
             <name>ILights</name>
             <instance>default</instance>
