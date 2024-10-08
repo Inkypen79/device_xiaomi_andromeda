@@ -12,7 +12,8 @@ $(call inherit-product, vendor/xiaomi/andromeda/andromeda-vendor.mk)
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
+    $(LOCAL_PATH) \
+    hardware/xiaomi
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2340
