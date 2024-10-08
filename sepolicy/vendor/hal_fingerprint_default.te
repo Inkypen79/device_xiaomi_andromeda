@@ -23,7 +23,8 @@ hal_client_domain(hal_fingerprint_default, vendor_hal_dspmanager)
 # Allow hal_fingerprint_default to get IPerf interface
 hal_client_domain(hal_fingerprint_default, vendor_hal_perf)
 
-# Allow hal_fingerprint_default to set fingerprint properties
+# Allow hal_fingerprint_default to get/set fingerprint properties
+get_prop(hal_fingerprint_default, vendor_fp_prop)
 set_prop(hal_fingerprint_default, vendor_fp_prop)
 
 # Allow hal_fingerprint_default to read adsprpc properties
