@@ -199,3 +199,7 @@ vendor.power.pasr.enabled=true
 vendor.qcom.bluetooth.soc=cherokee
 vendor.usb.use_ffs_mtp=0
 vendor.voice.path.for.pcm.voip=false
+
+# Fingerprint
+persist.vendor.fingerprint.type=rear
+persist.vendor.fingerprint.sensor_modules=fpc

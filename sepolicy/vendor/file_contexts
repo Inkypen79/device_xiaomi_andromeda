@@ -11,7 +11,7 @@
 /dev/socket/audio_hw_socket                                                 u:object_r:audio_socket:s0
 
 # Fingerprint
-/vendor/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.3-service\.xiaomi u:object_r:hal_fingerprint_default_exec:s0
+/vendor/bin/hw/android\.hardware\.biometrics\.fingerprint-service\.xiaomi   u:object_r:hal_fingerprint_default_exec:s0
 
 # Fingerprint data
 /data/vendor/fpc(/.*)?                                                      u:object_r:vendor_fingerprint_data_file:s0
