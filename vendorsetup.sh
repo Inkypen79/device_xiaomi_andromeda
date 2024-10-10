@@ -7,3 +7,5 @@ then
     echo -e "${GREEN}Downloading clang 19.0.1${NC}"
     git clone https://gitlab.com/inkypen/prebuilts_clang_host_linux-x86 -b ${CLANGVER} "${CLANGDIR}/${CLANGVER}" --single-branch
 fi
+
+repopick 404720 404721 405259
