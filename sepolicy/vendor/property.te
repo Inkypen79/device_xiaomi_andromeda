@@ -5,6 +5,5 @@ vendor_internal_prop(vendor_init_prop);
 vendor_internal_prop(vendor_qti_init_shell_prop);
 
 vendor_public_prop(persist_slider_prop);
-vendor_public_prop(vendor_fp_prop);
 vendor_public_prop(vendor_payment_security_prop)
 vendor_public_prop(vendor_thermal_normal_prop);
