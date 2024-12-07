@@ -271,6 +271,11 @@ PRODUCT_PACKAGES += \
     libcodec2_hidl@1.0.vendor \
     libcodec2_vndk.vendor
 
+PRODUCT_PACKAGES += \
+    media_codecs.xml \
+    media_codecs_c2.xml \
+    media_codecs_performance.xml
+
 # Net
 PRODUCT_PACKAGES += \
     librmnetctl \
