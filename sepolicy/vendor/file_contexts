@@ -20,7 +20,6 @@
 
 # HALs
 /vendor/bin/hw/android\.hardware\.dumpstate@1\.0-service\.xiaomi            u:object_r:hal_dumpstate_default_exec:s0
-/vendor/bin/hw/android\.hardware\.light-service\.xiaomi                     u:object_r:hal_light_default_exec:s0
 /vendor/bin/hw/android\.hardware\.nfc-service\.nxp                          u:object_r:hal_nfc_default_exec:s0
 /vendor/bin/hw/vendor\.qti\.sla\.service@1\.0-service                       u:object_r:hal_slaservice_default_exec:s0
 /vendor/bin/hw/vendor\.xiaomi\.hardware\.citsensorservice@1\.1-service      u:object_r:hal_citsensorservice_xiaomi_default_exec:s0
