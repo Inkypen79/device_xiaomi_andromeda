@@ -1,0 +1,20 @@
+//
+ // Copyright (C) 2022-2025 The LineageOS Project
+ //
+ // SPDX-License-Identifier: Apache-2.0
+ //
+
+cc_prebuilt_library_shared {
+     name: "libhidlcache",
+     soc_specific: true,
+     strip: {
+         none: true,
+     },
+     target: {
+         android_arm64: {
+             srcs: ["libhidlcache.so"],
+         },
+     },
+     compile_multilib: "64",
+     check_elf_files: false,
+ }
