@@ -265,9 +265,8 @@ PRODUCT_PACKAGES += \
     libcodec2_vndk.vendor
 
 PRODUCT_PACKAGES += \
-    media_codecs.xml \
     media_codecs_c2.xml \
-    media_codecs_performance.xml
+    media_codecs_performance_c2.xml
 
 # Net
 PRODUCT_PACKAGES += \
@@ -296,20 +295,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.nfc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.nfc.xml \
     frameworks/native/data/etc/com.android.nfc_extras.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.android.nfc_extras.xml \
     frameworks/native/data/etc/com.nxp.mifare.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.nxp.mifare.xml
-
-# OMX
-PRODUCT_PACKAGES += \
-    libc2dcolorconvert \
-    libmm-omxcore \
-    libOmxAacEnc \
-    libOmxAmrEnc \
-    libOmxCore \
-    libOmxEvrcEnc \
-    libOmxG711Enc \
-    libOmxQcelp13Enc \
-    libOmxVdec \
-    libOmxVenc \
-    libstagefrighthw
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
