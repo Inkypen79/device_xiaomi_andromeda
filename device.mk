@@ -107,7 +107,6 @@ PRODUCT_COPY_FILES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
-    liba2dpoffload \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor \
     vendor.qti.hardware.bluetooth_audio@2.1.vendor \
     vendor.qti.hardware.bluetooth_dun@1.0.vendor \
@@ -174,7 +173,6 @@ PRODUCT_COPY_FILES += \
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey \
-    libcrypto_shim.vendor
 
 # Dumpstate
 PRODUCT_PACKAGES += \
@@ -208,8 +206,6 @@ PRODUCT_PACKAGES += \
     android.hardware.health-service.qti
 
 # HIDL
-$(foreach target, $(shell cat $(LOCAL_PATH)/vndk.txt), $(eval PRODUCT_PACKAGES += $(target).vendor))
-
 PRODUCT_HIDL_ENABLED := true
 
 PRODUCT_PACKAGES += \
@@ -505,7 +501,6 @@ PRODUCT_PACKAGES += \
     hostapd \
     libwifi-hal-ctrl \
     libwifi-hal-qcom \
-    libwpa_client \
     wpa_supplicant \
     wpa_supplicant.conf
 
