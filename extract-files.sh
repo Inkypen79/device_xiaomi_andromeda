@@ -60,7 +60,7 @@ function blob_fixup() {
             ;;
         vendor/etc/seccomp_policy/atfwd@2.0.policy)
             [ "$2" = "" ] && return 0
-            echo 'gettid: 1' >> ${2}
+            grep -q "gettid: 1" "${2}" || echo -e "gettid: 1" >> "${2}"
             ;;
         vendor/lib64/libwvhidl.so)
             grep -q libcrypto_shim.so "${2}" || "${PATCHELF}" --add-needed "libcrypto_shim.so" "${2}"
