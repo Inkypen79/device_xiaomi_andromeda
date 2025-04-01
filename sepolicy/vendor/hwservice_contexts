@@ -14,8 +14,6 @@ vendor.qti.sla.service::ISlaService                                      u:objec
 # Xiaomi
 vendor.xiaomi.hardware.citsensorservice::ICitSensorService               u:object_r:citsensorservice_hwservice:s0
 vendor.xiaomi.hardware.mfidoca::IFidoService                             u:object_r:fidoservice_hwservice:s0
-vendor.xiaomi.hardware.misys::IMiSys                                     u:object_r:misys_hwservice:s0
 vendor.xiaomi.hardware.mlipay::IMlipayService                            u:object_r:hal_mlipay_hwservice:s0
 vendor.xiaomi.hardware.mtdservice::IMTService                            u:object_r:mtdservice_hwservice:s0
 vendor.xiaomi.hardware.tidaservice::ITidaService                         u:object_r:tidaservice_hwservice:s0
-vendor.xiaomi.hardware.vsimapp::IVSIMService                             u:object_r:vsimservice_hwservice:s0

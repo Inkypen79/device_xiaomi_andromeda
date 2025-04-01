@@ -22,14 +22,10 @@
 /vendor/bin/hw/android\.hardware\.dumpstate@1\.0-service\.xiaomi            u:object_r:hal_dumpstate_default_exec:s0
 /vendor/bin/hw/vendor\.qti\.sla\.service@1\.0-service                       u:object_r:hal_slaservice_default_exec:s0
 /vendor/bin/hw/vendor\.xiaomi\.hardware\.citsensorservice@1\.1-service      u:object_r:hal_citsensorservice_xiaomi_default_exec:s0
-/vendor/bin/hw/vendor\.xiaomi\.hardware\.misys@1\.0-service                 u:object_r:hal_misys_default_exec:s0
-/vendor/bin/hw/vendor\.xiaomi\.hardware\.misys@2\.0-service                 u:object_r:hal_misys_default_exec:s0
-/vendor/bin/hw/vendor\.xiaomi\.hardware\.misys@3\.0-service                 u:object_r:hal_misys_default_exec:s0
 /vendor/bin/fidoca                                                          u:object_r:hal_mfidoca_default_exec:s0
 /vendor/bin/mlipayd@1.1                                                     u:object_r:hal_mlipay_default_exec:s0
 /vendor/bin/mtd@1.2                                                         u:object_r:hal_mtdservice_default_exec:s0
 /vendor/bin/tidad@1.2                                                       u:object_r:hal_tidaservice_default_exec:s0
-/vendor/bin/vsimd                                                           u:object_r:hal_vsimapp_default_exec:s0
 
 # Misc
 /vendor/bin/batterysecret                                                   u:object_r:batterysecret_exec:s0

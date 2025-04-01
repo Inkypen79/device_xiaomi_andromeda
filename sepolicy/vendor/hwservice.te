@@ -1,11 +1,9 @@
 type citsensorservice_hwservice, hwservice_manager_type;
 type hal_xiaomi_fingerprint_hwservice, hwservice_manager_type;
 type fidoservice_hwservice, hwservice_manager_type;
-type misys_hwservice, hwservice_manager_type;
 type hal_mlipay_hwservice, hwservice_manager_type;
 type mtdservice_hwservice, hwservice_manager_type;
 type slaservice_hwservice, hwservice_manager_type;
 type tidaservice_hwservice, hwservice_manager_type;
-type vsimservice_hwservice, hwservice_manager_type;
 type nxpnfc_hwservice, hwservice_manager_type;
 type nxpese_hwservice, hwservice_manager_type;
