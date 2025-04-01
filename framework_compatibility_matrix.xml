@@ -249,7 +249,6 @@
         <interface>
             <name>ISupplicant</name>
             <instance>default</instance>
-            <instance>wigigp2p</instance>
         </interface>
     </hal>
     <hal format="hidl" optional="true">
@@ -732,7 +731,6 @@
         <interface>
             <name>IHostapdVendor</name>
             <instance>default</instance>
-            <instance>wigighostapd</instance>
         </interface>
     </hal>
     <hal format="hidl" optional="true">
@@ -741,14 +739,6 @@
         <interface>
             <name>ISupplicantVendor</name>
             <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.qti.hardware.wifi.wifilearner</name>
-        <version>1.0</version>
-        <interface>
-            <name>IWifiStats</name>
-            <instance>wifiStats</instance>
         </interface>
     </hal>
     <hal format="hidl" optional="true">
