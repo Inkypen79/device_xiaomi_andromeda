@@ -175,8 +175,8 @@ vendor/lib64/vendor.qti.hardware.camera.device@2.0.so|c22277198a5fdd7e4b7b057ef5
 vendor/lib64/vendor.qti.hardware.camera.device@3.5.so|a054618c3750e90f8ac4a2d5d4069113ffcf7b53
 
 # Camera
-lib/libchromaflash.so
-lib64/libseemore.so
+lib/libchromaflash.so:system_ext/lib/libchromaflash.so
+lib64/libseemore.so:system_ext/lib64/libseemore.so
 vendor/etc/camera/libsnpe_dsp_v66_domains_v2_skel.so
 vendor/lib/camera/com.qti.sensor.imx363_andromeda.so
 vendor/lib/camera/com.qti.sensor.imx576_andromeda.so
@@ -510,8 +510,8 @@ system_ext/lib64/vendor.qti.hardware.data.iwlan@1.0.so|03d9d950b6678d2480d04e4b7
 system_ext/lib64/vendor.qti.hardware.data.qmi@1.0.so|6fe3f53c35085c34e3c46d7b75679a3447d5f0c0
 
 # CNE (vendor) - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
--vendor/app/CneApp/CneApp.apk|345dc6c677e9bd7a7d36033b8955e90d2a1594d5
--vendor/app/IWlanService/IWlanService.apk|9ea57bfbf58799a564fcf498de9f5fe3506f7342
+vendor/app/CneApp/CneApp.apk|345dc6c677e9bd7a7d36033b8955e90d2a1594d5
+vendor/app/IWlanService/IWlanService.apk|9ea57bfbf58799a564fcf498de9f5fe3506f7342
 vendor/bin/cnd|953858869b513828894800bf8556f3845d9665a2
 vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml|578f3f8f56059bfdbef926bcc68d01c15e06951f
 vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml|1fb42c672a12b6660bdce3ea94e0c43719dd9de8
@@ -660,7 +660,7 @@ vendor/lib64/liboemcrypto.so
 # DRM-Widevine - from qssi-user-11-RKQ1.200710.002-V12.1.2.0.RJBMIXM-release-keys
 vendor/bin/hw/android.hardware.drm@1.3-service.widevine|75103a18355966370895526dc9afb6adff4b755b
 vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc|c35e1a6f9a6faff19064a81e07c4be82ceaf4bb5
--vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml|ebebcf8f367641480cf7d512fc06e6ab777527be
+vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml|ebebcf8f367641480cf7d512fc06e6ab777527be
 vendor/lib/mediadrm/libwvdrmengine.so|29a495f4df7d7f82c1dbb388e1c3fb63913ecac9
 vendor/lib64/libwvhidl.so|a74ca1a46b292d692cc4bfa04301865286f5b94d
 vendor/lib64/mediadrm/libwvdrmengine.so|4153eeca0be13fc370727208e3476322ca7e0677
@@ -764,10 +764,10 @@ system_ext/etc/permissions/privapp-permissions-com.qualcomm.location.xml|54b04c5
 system_ext/framework/com.qti.location.sdk.jar|7e1bdf5206cb4ac0e4d6c13d5e0a439ea571dfa4
 system_ext/lib64/libloc2jnibridge.so|52ade612ce6c7d78f22b75781cda50a8883f30f9
 system_ext/lib64/liblocsdk_diag_jni.so|ad7344ddbf16f547353a4c42e694df443686055e
--system_ext/priv-app/com.qualcomm.location/com.qualcomm.location.apk|869fa6df60535c4aa54de275ed8447b6d44062f5
+system_ext/priv-app/com.qualcomm.location/com.qualcomm.location.apk|869fa6df60535c4aa54de275ed8447b6d44062f5
 
 # GPS (vendor) - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
--vendor/app/CACertService/CACertService.apk|19e821b6c59a66b8ff877252337f6bf88bd63f19
+vendor/app/CACertService/CACertService.apk|19e821b6c59a66b8ff877252337f6bf88bd63f19
 vendor/bin/hw/android.hardware.gnss@2.1-service-qti|d458a2aadc1d00df4696d6793e550f4a9422a2c9
 vendor/bin/loc_launcher|c9a2f764201ee679c29463f405abd9625c421afc
 vendor/bin/lowi-server|acbe58833160c246b211065169752404f64c08ec
@@ -776,8 +776,8 @@ vendor/bin/xtra-daemon|f9e77c629c9de5a188b773188ae96c9a595d7360
 vendor/bin/xtwifi-client|86d1b65370ec8d6bb44f126005b13bed02459543
 vendor/bin/xtwifi-inet-agent|f805841e5c8ca3b0af620486a64a37148daa0980
 vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc|d3844699c845ce5de4c8b50548a2095f92dd0235
--vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml|1c344aacaa6d17a1585ba58b2e6d438dcfe31fad
--vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml|6514b13f55abc0acc28e004c35ff93fb972d61a9
+vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml|1c344aacaa6d17a1585ba58b2e6d438dcfe31fad
+vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml|6514b13f55abc0acc28e004c35ff93fb972d61a9
 vendor/etc/apdr.conf|c00b36e681f26ff9cb778b86fd98759a619d2365
 vendor/etc/cacert_location.pem|0789bf799c7e45d352a83e2f79ddb0cea86db85b
 vendor/etc/flp.conf|8c8642685c225fa0b715c284481018a527dae451
@@ -888,8 +888,8 @@ vendor/lib64/libsdmextension.so|76ef1430f700480509b5f991e031447fea9ddb01
 vendor/lib64/libtinyxml2_1.so|ff32deb110acb02cb5def5f3404f9064c1276483
 
 # Hotword Enrollment - from raphael-user-11-RKQ1.200826.002-V12.5.2.0.RFKMIXM-release-keys
--product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk|62e301d2f386771facd9a9aa546c0fcc241116da
--product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk|8639661f6fad570723bc6f2759da76604bd804fa
+product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk|62e301d2f386771facd9a9aa546c0fcc241116da
+product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk|8639661f6fad570723bc6f2759da76604bd804fa
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml|563a58554d9c0dd0608552b644fbf74519a447bb
 system_ext/framework/com.android.hotwordenrollment.common.util.jar|bef92589e75a6da6043f85f4b9b0e85866429624
 
@@ -914,7 +914,7 @@ vendor/etc/msm_irqbalance.conf|0141a3e34175f62a3ae1f0f44cca94cf7043f2de
 # Keystore - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
 vendor/bin/hw/android.hardware.keymaster@4.1-service-qti|0e0aa56f9ad9b1832eeb39db82eed1f021d7e244
 vendor/etc/init/android.hardware.keymaster@4.1-service-qti.rc|9816f37e7487295e29a19d05c4a3e6b7b0ec35ea
--vendor/etc/vintf/manifest/android.hardware.keymaster@4.1-service-default-qti.xml|478d11fc12dd7c6a85b543cf163bec217aea3148
+vendor/etc/vintf/manifest/android.hardware.keymaster@4.1-service-default-qti.xml|478d11fc12dd7c6a85b543cf163bec217aea3148
 vendor/lib64/libkeymasterdeviceutils.so|15af23f261554c47b5f490f0fe68c15abe87cda8
 vendor/lib64/libkeymasterprovision.so|6d774511459d24cc7f814546296537a77d35c454
 vendor/lib64/libkeymasterutils.so|2392abef423c0610d9625670f1ff3063532e9bc1
@@ -1034,8 +1034,8 @@ vendor/lib64/libnpu.so|7e194d36b17c265ac3d363ff4879aa6e9ca7d631
 # Neural Networks - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
 vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-qti|d8f5981b1bedaa9cbef1b9fc93a400dc98e89cfa
 vendor/etc/init/android.hardware.neuralnetworks@1.3-service-qti.rc|4b7f2c5f914f3eef38f19936c0a06efc09b5b28c
--vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti-hta.xml|57e182a296097870a4c4ed1579c67da20c2b69de
--vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti.xml|ac07e83ba7c2a87a2f216f04ec84df4539ea8507
+vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti-hta.xml|57e182a296097870a4c4ed1579c67da20c2b69de
+vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti.xml|ac07e83ba7c2a87a2f216f04ec84df4539ea8507
 vendor/lib64/libhexagon_nn_stub.so|6fdaffc1c9372c0e70bcd82f5d806162ca31c176
 vendor/lib64/libhta_hexagon_runtime.so|e8f735a8d9396052fe217eafe506e28b492f024c
 vendor/lib64/unnhal-acc-adreno.so|bc3aa43c7cc4b16ac8991ada3c0f731a5b4e37fc
@@ -1542,7 +1542,7 @@ vendor/lib64/sensors.touch.so
 # Soter
 system_ext/framework/vendor.qti.hardware.soter-V1.0-java.jar
 system_ext/lib64/vendor.qti.hardware.soter@1.0.so
--vendor/app/SoterService/SoterService.apk
+vendor/app/SoterService/SoterService.apk
 vendor/bin/vendor.qti.hardware.soter@1.0-provision
 
 # Soter - from LA.UM.9.1.r1-12900-SMxxx0.0
@@ -1581,7 +1581,7 @@ vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e157937
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|4ba792ee3234dca4cd7ebbd7b3f9003c800f51b4
 
 # Touch-improve
--vendor/app/com.qualcomm.qti.improvetouch.service/com.qualcomm.qti.improvetouch.service.apk
+vendor/app/com.qualcomm.qti.improvetouch.service/com.qualcomm.qti.improvetouch.service.apk
 vendor/lib/vendor.qti.hardware.improvetouch.touchcompanion@1.0-service.so
 vendor/lib/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so
 vendor/lib64/vendor.qti.hardware.improvetouch.touchcompanion@1.0-service.so
@@ -1606,7 +1606,7 @@ vendor/lib/vendor.qti.voiceprint@1.0.so
 vendor/lib64/vendor.qti.voiceprint@1.0.so
 
 # WiFi
-bin/iwpriv
+bin/iwpriv:system_ext/bin/iwpriv
 vendor/bin/cnss-daemon
 vendor/bin/cnss_diag
 vendor/bin/fstman
@@ -1624,7 +1624,7 @@ vendor/etc/init/vendor.qti.hardware.wifi.wifilearner@1.0-service.rc|aacefc44da5e
 vendor/lib64/vendor.qti.hardware.wifi.wifilearner@1.0.so|cbdb61c9c3974479bdaeeda71cdf6a4d3ac4558a
 
 # WIGIG - from LA.UM.9.1.r1-10900-SMxxx0.0
--system_ext/app/WigigTetheringRRO/WigigTetheringRRO.apk|e5386f255891bebd2c99a8a908b2519e6efd313a
+system_ext/app/WigigTetheringRRO/WigigTetheringRRO.apk|e5386f255891bebd2c99a8a908b2519e6efd313a
 system_ext/framework/wigig-service.jar|5e22482d17a5ea5a3b2b14d897f567ddf9670155
 vendor/bin/ftm_flows_test|8db257c9a987a409966e6ecec4fd396785f64b2f
 vendor/bin/ftmtest|356507d1d603629194391e0f4ee5316489bab604
@@ -1653,29 +1653,29 @@ vendor/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so|1b039e8f5bacbce1e163f
 vendor/lib64/vendor.qti.hardware.wigig.supptunnel@1.0.so|74aa1b56de032bdaefed266f285d5a05cbfb253f
 
 # Xiaomi
-etc/permissions/vendor-xiaomi-hardware-citsensorservice.xml
-etc/permissions/vendor.xiaomi.hardware.misys-V1.0-java-permission.xml
-etc/permissions/vendor.xiaomi.hardware.misys-V2.0-java-permission.xml
-etc/permissions/vendor.xiaomi.hardware.misys.V3_0-permission.xml
-etc/permissions/vendor.xiaomi.hardware.mtdservice-V1.0-java-permission.xml
-etc/permissions/vendor.xiaomi.hardware.mtdservice-V1.1-java-permission.xml
-etc/permissions/vendor.xiaomi.hardware.vsimapp-V1.0-java-permission.xml
-framework/vendor.xiaomi.hardware.misys-V1.0-java.jar
-framework/vendor.xiaomi.hardware.misys-V2.0-java.jar
-framework/vendor.xiaomi.hardware.misys.V3_0.jar
-framework/vendor.xiaomi.hardware.mtdservice-V1.0-java.jar
-framework/vendor.xiaomi.hardware.mtdservice-V1.1-java.jar
-framework/vendor.xiaomi.hardware.vsimapp-V1.0-java.jar
-lib/vendor.xiaomi.hardware.citsensorservice@1.0.so
-lib/vendor.xiaomi.hardware.citsensorservice@1.1.so
-lib/vendor.xiaomi.hardware.misys@1.0.so
-lib/vendor.xiaomi.hardware.misys@2.0.so
-lib/vendor.xiaomi.hardware.misys@3.0.so
-lib64/vendor.xiaomi.hardware.citsensorservice@1.0.so
-lib64/vendor.xiaomi.hardware.citsensorservice@1.1.so
-lib64/vendor.xiaomi.hardware.misys@1.0.so
-lib64/vendor.xiaomi.hardware.misys@2.0.so
-lib64/vendor.xiaomi.hardware.misys@3.0.so
+etc/permissions/vendor-xiaomi-hardware-citsensorservice.xml:system_ext/etc/permissions/vendor-xiaomi-hardware-citsensorservice.xml
+etc/permissions/vendor.xiaomi.hardware.misys-V1.0-java-permission.xml:system_ext/etc/permissions/vendor.xiaomi.hardware.misys-V1.0-java-permission.xml
+etc/permissions/vendor.xiaomi.hardware.misys-V2.0-java-permission.xml:system_ext/etc/permissions/vendor.xiaomi.hardware.misys-V2.0-java-permission.xml
+etc/permissions/vendor.xiaomi.hardware.misys.V3_0-permission.xml:system_ext/etc/permissions/vendor.xiaomi.hardware.misys.V3_0-permission.xml
+etc/permissions/vendor.xiaomi.hardware.mtdservice-V1.0-java-permission.xml:system_ext/etc/permissions/vendor.xiaomi.hardware.mtdservice-V1.0-java-permission.xml
+etc/permissions/vendor.xiaomi.hardware.mtdservice-V1.1-java-permission.xml:system_ext/etc/permissions/vendor.xiaomi.hardware.mtdservice-V1.1-java-permission.xml
+etc/permissions/vendor.xiaomi.hardware.vsimapp-V1.0-java-permission.xml:system_ext/etc/permissions/vendor.xiaomi.hardware.vsimapp-V1.0-java-permission.xml
+framework/vendor.xiaomi.hardware.misys-V1.0-java.jar:system_ext/framework/vendor.xiaomi.hardware.misys-V1.0-java.jar
+framework/vendor.xiaomi.hardware.misys-V2.0-java.jar:system_ext/framework/vendor.xiaomi.hardware.misys-V2.0-java.jar
+framework/vendor.xiaomi.hardware.misys.V3_0.jar:system_ext/framework/vendor.xiaomi.hardware.misys.V3_0.jar
+framework/vendor.xiaomi.hardware.mtdservice-V1.0-java.jar:system_ext/framework/vendor.xiaomi.hardware.mtdservice-V1.0-java.jar
+framework/vendor.xiaomi.hardware.mtdservice-V1.1-java.jar:system_ext/framework/vendor.xiaomi.hardware.mtdservice-V1.1-java.jar
+framework/vendor.xiaomi.hardware.vsimapp-V1.0-java.jar:system_ext/framework/vendor.xiaomi.hardware.vsimapp-V1.0-java.jar
+lib/vendor.xiaomi.hardware.citsensorservice@1.0.so:system_ext/lib/vendor.xiaomi.hardware.citsensorservice@1.0.so
+lib/vendor.xiaomi.hardware.citsensorservice@1.1.so:system_ext/lib/vendor.xiaomi.hardware.citsensorservice@1.1.so
+lib/vendor.xiaomi.hardware.misys@1.0.so:system_ext/lib/vendor.xiaomi.hardware.misys@1.0.so
+lib/vendor.xiaomi.hardware.misys@2.0.so:system_ext/lib/vendor.xiaomi.hardware.misys@2.0.so
+lib/vendor.xiaomi.hardware.misys@3.0.so:system_ext/lib/vendor.xiaomi.hardware.misys@3.0.so
+lib64/vendor.xiaomi.hardware.citsensorservice@1.0.so:system_ext/lib64/vendor.xiaomi.hardware.citsensorservice@1.0.so
+lib64/vendor.xiaomi.hardware.citsensorservice@1.1.so:system_ext/lib64/vendor.xiaomi.hardware.citsensorservice@1.1.so
+lib64/vendor.xiaomi.hardware.misys@1.0.so:system_ext/lib64/vendor.xiaomi.hardware.misys@1.0.so
+lib64/vendor.xiaomi.hardware.misys@2.0.so:system_ext/lib64/vendor.xiaomi.hardware.misys@2.0.so
+lib64/vendor.xiaomi.hardware.misys@3.0.so:system_ext/lib64/vendor.xiaomi.hardware.misys@3.0.so
 vendor/bin/hw/android.hardware.dumpstate@1.0-service.xiaomi
 vendor/bin/hw/vendor.xiaomi.hardware.citsensorservice@1.1-service
 vendor/bin/hw/vendor.xiaomi.hardware.misys@1.0-service
