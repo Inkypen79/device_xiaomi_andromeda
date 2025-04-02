@@ -70,6 +70,11 @@ function blob_fixup() {
         vendor/lib/soundfx/libdirac.so)
             grep -q liblog.so "${2}" || "${PATCHELF}" --add-needed "liblog.so" "${2}"
             ;;
+        system_ext/lib64/libseemore.so)
+            patchelf "${2}" --clear-symbol-version remote_handle_close
+            patchelf "${2}" --clear-symbol-version remote_handle_invoke
+            patchelf "${2}" --clear-symbol-version remote_handle_open
+            ;;
         vendor/lib64/libsnpe_dsp_domains_v2.so)
             patchelf "${2}" --clear-symbol-version remote_handle64_close
             patchelf "${2}" --clear-symbol-version remote_handle64_invoke
