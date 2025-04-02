@@ -189,6 +189,10 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint-service.xiaomi \
     com.fingerprints.extension@1.0.vendor
 
+PRODUCT_VENDOR_PROPERTIES += \
+     ro.hardware.fingerprint=fpc \
+     persist.vendor.sys.fp.vendor=fpc
+
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.fingerprint.xml:system/etc/permissions/android.hardware.fingerprint.xml
     
