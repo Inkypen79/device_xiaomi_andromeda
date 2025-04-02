@@ -323,3 +323,5 @@ ro.vendor.qti.va_aosp.support=1
 # Fingerprint
 persist.vendor.fingerprint.type=rear
 persist.vendor.fingerprint.sensor_modules=fpc
+persist.vendor.sys.fp.vendor=fpc
+ro.hardware.fingerprint=fpc
