@@ -62,6 +62,11 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             grep -q "gettid: 1" "${2}" || echo -e "gettid: 1" >> "${2}"
             ;;
+        vendor/lib/libmmcamera_faceproc.so)
+            patchelf "${2}" --clear-symbol-version __aeabi_memcpy
+            patchelf "${2}" --clear-symbol-version __aeabi_memset
+            patchelf "${2}" --clear-symbol-version __gnu_Unwind_Find_exidx
+            ;;
         vendor/lib/soundfx/libdirac.so)
             grep -q liblog.so "${2}" || "${PATCHELF}" --add-needed "liblog.so" "${2}"
             ;;
