@@ -61,6 +61,8 @@ function lib_to_package_fixup_vendor_variants() {
             vendor.qti.hardware.data.iwlan@1.0 | \
             vendor.qti.hardware.data.latency@1.0 | \
             vendor.qti.hardware.data.qmi@1.0 | \
+            vendor.qti.hardware.qccsyshal@1.0 | \
+            vendor.qti.hardware.qccvndhal@1.0 | \
             vendor.qti.hardware.slmadapter@1.0 | \
             vendor.qti.ims.callcapability@1.0 | \
             vendor.qti.ims.callinfo@1.0 | \
