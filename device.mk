@@ -352,14 +352,6 @@ PRODUCT_PACKAGES += \
     libvndfwk_detect_jni.qti \
     libvndfwk_detect_jni.qti.vendor
 
-PRODUCT_PACKAGES += \
-    vendor.qti.hardware.servicetracker@1.2.vendor \
-    vendor.qti.hardware.systemhelper@1.0.vendor
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/privapp-permissions-qti.xml \
-    $(LOCAL_PATH)/configs/qti_whitelist.xml:system/etc/sysconfig/qti_whitelist.xml
-
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.batteryd.rc \
