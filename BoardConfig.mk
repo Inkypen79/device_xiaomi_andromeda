@@ -161,9 +161,6 @@ BOARD_QTI_DYNAMIC_PARTITIONS_PARTITION_LIST := $(ALL_PARTITIONS)
 # Partitions - reserved size
 -include vendor/lineage/config/BoardConfigReservedSize.mk
 
-# Power
-TARGET_POWER_LIBPERFMGR_MODE_EXTENSION_LIB := //$(DEVICE_PATH):libperfmgr-ext-xiaomi
-
 # QCOM
 BOARD_USES_QCOM_HARDWARE := true
 
