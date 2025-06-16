@@ -79,6 +79,11 @@ blob_fixups: blob_fixups_user_type = {
         .regex_replace('.+media_codecs_(google_audio|google_c2|google_telephony|vendor_audio).+\n', ''),
     'vendor/etc/seccomp_policy/atfwd@2.0.policy': blob_fixup()
         .add_line_if_missing('gettid: 1'),
+    (
+    'vendor/lib/hw/audio.primary.msmnile.so',
+    'vendor/lib/libaudioroute_ext.so'
+    ): blob_fixup()
+        .replace_needed('libaudioroute.so', 'libaudioroute-v34.so'),
     'vendor/lib/soundfx/libdirac.so': blob_fixup()
         .add_needed('liblog.so'),
     'vendor/lib/libmmcamera_faceproc.so': blob_fixup()
