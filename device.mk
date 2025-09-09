@@ -209,7 +209,7 @@ PRODUCT_PACKAGES += \
     IPACM_cfg.xml
 
 # Kernel
-PRODUCT_ENABLE_UFFD_GC := false
+PRODUCT_ENABLE_UFFD_GC := true
 
 # Keylayout
 PRODUCT_COPY_FILES += \
