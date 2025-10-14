@@ -9,3 +9,6 @@ type proc_last_kmsg, fs_type, proc_type;
 
 # Thermal data
 type vendor_thermal_data_file, file_type, data_file_type;
+
+# Wireless charger
+type vendor_sysfs_wireless_supply, sysfs_type, fs_type;
