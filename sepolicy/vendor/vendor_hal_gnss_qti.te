@@ -1,2 +1,3 @@
 allow vendor_hal_gnss_qti vendor_rild_socket:dir search;
-allow vendor_hal_gnss_qti vendor_ssgtzd_socket:sock_file write;
+unix_socket_connect(vendor_hal_gnss_qti, vendor_rild, rild)
+unix_socket_connect(vendor_hal_gnss_qti, vendor_ssgtzd, vendor_ssgtzd)
