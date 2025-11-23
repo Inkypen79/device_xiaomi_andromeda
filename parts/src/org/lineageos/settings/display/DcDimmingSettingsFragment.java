@@ -20,15 +20,13 @@ import android.content.Context;
 import android.os.Bundle;
 import androidx.preference.Preference;
 import androidx.preference.Preference.OnPreferenceChangeListener;
-import androidx.preference.PreferenceFragmentCompat;
 import androidx.preference.SwitchPreferenceCompat;
-
+import com.android.settingslib.widget.SettingsBasePreferenceFragment;
 import org.lineageos.settings.R;
 import org.lineageos.settings.utils.FileUtils;
 
-public class DcDimmingSettingsFragment extends PreferenceFragmentCompat implements
-        OnPreferenceChangeListener {
-
+public class DcDimmingSettingsFragment
+        extends SettingsBasePreferenceFragment implements OnPreferenceChangeListener {
     private SwitchPreferenceCompat mDcDimmingPreference;
     private static final String DC_DIMMING_ENABLE_KEY = "dc_dimming_enable";
     private static final String DC_DIMMING_NODE = "/sys/devices/platform/soc/soc:qcom,dsi-display-primary/msm_fb_ea_enable";
@@ -53,5 +51,4 @@ public class DcDimmingSettingsFragment extends PreferenceFragmentCompat implemen
         }
         return true;
     }
-
 }

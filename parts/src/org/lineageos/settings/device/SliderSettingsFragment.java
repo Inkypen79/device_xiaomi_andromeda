@@ -23,13 +23,12 @@ import android.view.MenuItem;
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 import androidx.preference.Preference.OnPreferenceChangeListener;
-import androidx.preference.PreferenceFragmentCompat;
 import androidx.preference.SwitchPreferenceCompat;
-
+import com.android.settingslib.widget.SettingsBasePreferenceFragment;
 import org.lineageos.settings.R;
 import org.lineageos.settings.utils.FileUtils;
 
-public class SliderSettingsFragment extends PreferenceFragmentCompat implements
+public class SliderSettingsFragment extends SettingsBasePreferenceFragment implements
         OnPreferenceChangeListener {
 
     private ListPreference mSoundPreference;
