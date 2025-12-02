@@ -28,7 +28,8 @@
 
     <application
         android:label="@string/device_settings_app_name"
-        android:persistent="true">
+        android:persistent="true"
+        android:theme="@style/Theme.SubSettingsBase.Expressive">
 
         <provider
             android:name="androidx.startup.InitializationProvider"
@@ -46,8 +47,7 @@
         <activity
             android:name=".dirac.DiracActivity"
             android:exported="true"
-            android:label="@string/dirac_title"
-            android:theme="@style/Theme.SubSettingsBase">
+            android:label="@string/dirac_title">
             <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
             </intent-filter>
@@ -83,8 +83,7 @@
         <activity
             android:name=".display.DcDimmingSettingsActivity"
             android:exported="true"
-            android:label="@string/dc_dimming_enable_title"
-            android:theme="@style/Theme.SubSettingsBase">
+            android:label="@string/dc_dimming_enable_title">
             <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
             </intent-filter>
@@ -101,8 +100,7 @@
             android:name=".device.SliderSettingsActivity"
             android:exported="true"
             android:icon="@drawable/cellphone_arrow_down"
-            android:label="@string/slider_settings_title"
-            android:theme="@style/Theme.SubSettingsBase">
+            android:label="@string/slider_settings_title">
             <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
             </intent-filter>
