@@ -912,7 +912,7 @@ system_ext/lib64/libqccdme.so|9d96467813bdf077bf5039833a115ed20aba6266
 system_ext/lib64/libqccfileservice.so|4ea715ba00303096daa1a04625e3f20c1844813b
 system_ext/lib64/vendor.qti.hardware.qccsyshal@1.0.so|88b21e904b1644bc520c348b4004f07a8976a0ae
 system_ext/lib64/vendor.qti.hardware.qccsyshal@1.1.so|cd39a8e5edcc0851da6870e8011cf62a288973c9
-system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2-halimpl.so|b72932b48c4f25e8f47043c31ec7107c2be82ab8
+system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2-halimpl.so|b72932b48c4f25e8f47043c31ec7107c2be82ab8|73c15d7486c278d655d0fb09466645c90a4f3344
 system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2.so|fd3c5cb8bcba9a222af87abbb3d0f3a84bb3b196
 system_ext/lib64/vendor.qti.hardware.qccvndhal@1.0.so|fec4590bf4a36caa1a6127246e42a63c12ef10b7
 system_ext/lib64/vendor.qti.qccsyshal_aidl-V1-ndk.so|932c1b4f9e6983bfbd8c845fe570fc2543e92548
