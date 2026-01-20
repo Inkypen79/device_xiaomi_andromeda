@@ -169,20 +169,20 @@ vendor/lib64/libhfp.so
 vendor/lib64/libsndmonitor.so
 vendor/lib64/libspkrprot.so
 
-# Camera - from raphael-user-11-RKQ1.200826.002-21.1.26-release-keys
-system_ext/framework/camerax-vendor-extensions.jar|1362060bfc28b0152c3987912d8adaedb8d2415f
+# Camera - from nabu OS1.0.18.0.TKXINXM
+system_ext/framework/camerax-vendor-extensions.jar|0d6f83c68a2f9d81a11f8129869ea7cafc023a8c
 vendor/bin/hw/android.hardware.camera.provider@2.4-service_64|d75fbf981881b05a9c35dec0937dd949d69a2eae
 vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc|b86a7c163879a53fe403fde169342632536c2735
 vendor/lib64/android.hardware.camera.provider@2.4-external.so|72adbe24694e85af2a0b93fdc099c166dc476e20
-vendor/lib64/android.hardware.camera.provider@2.4-legacy.so|3627dd07a9a762c165171a5b9aa67f331d89adf1
-vendor/lib64/camera.device@1.0-impl.so|bd1b7ccc5699ad75db1eb336016d0cac22a55968
-vendor/lib64/camera.device@3.2-impl.so|3e33449c09a28ef467bb713e83705959be7f6283
+vendor/lib64/android.hardware.camera.provider@2.4-legacy.so|6fe030fd1d0d9d028d59c8b8618067ecfe5c9151
+vendor/lib64/camera.device@1.0-impl.so|a2f5b90a5241799e3fbac147e59db4157bc89766
+vendor/lib64/camera.device@3.2-impl.so|2cde05df6c6daa056d8f37ae79a03e62f596531a
 vendor/lib64/camera.device@3.3-impl.so|a9e4f7f78272f7581eef053d5fe38e2e38ca322f
-vendor/lib64/camera.device@3.4-external-impl.so|69383a3153cc4b2b5ec23fcd5c0b7c76ad77832b
-vendor/lib64/camera.device@3.4-impl.so|a81eb617f764606302a76e3cee7cf62a1d276aea
+vendor/lib64/camera.device@3.4-external-impl.so|e0862496be5fc579c8be4cb305559af06cbeefb0
+vendor/lib64/camera.device@3.4-impl.so|020e79fa8b3594b35cfdc0301660ff3fe558e3c9
 vendor/lib64/camera.device@3.5-external-impl.so|448f4271d6866cac3254bd07299641100a0bcec3
-vendor/lib64/camera.device@3.5-impl.so|295a48e71e3524c56b3de3b9f12eeca8cc78020b
-vendor/lib64/camera.device@3.6-external-impl.so|d4299119a81ce75ef09e843fd854501c571a4733
+vendor/lib64/camera.device@3.5-impl.so|ec1c1c30a9c89c79e6a0741db7a8ae783eeb1974
+vendor/lib64/camera.device@3.6-external-impl.so|8e7da3b5ddaaf35dc33fc69f09a92ecde10355ea
 vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so|ef02d77e6a2c14fefbdf4093092a07061dc9ce9b
 vendor/lib64/vendor.qti.hardware.camera.device@2.0.so|c22277198a5fdd7e4b7b057ef5068f7edbd3f817
 vendor/lib64/vendor.qti.hardware.camera.device@3.5.so|a054618c3750e90f8ac4a2d5d4069113ffcf7b53
@@ -547,13 +547,12 @@ vendor/lib64/libmm-hdcpmgr.so
 # DRM-Widevine
 vendor/lib64/liboemcrypto.so
 
-# DRM-Widevine - from qssi-user-11-RKQ1.200710.002-V12.1.2.0.RJBMIXM-release-keys
-vendor/bin/hw/android.hardware.drm@1.3-service.widevine|75103a18355966370895526dc9afb6adff4b755b
-vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc|c35e1a6f9a6faff19064a81e07c4be82ceaf4bb5
+# DRM-Widevine - from nabu OS1.0.18.0.TKXINXM
+vendor/bin/hw/android.hardware.drm@1.3-service.widevine|07ac13a602f25788e54c1500c2957f561dd9f90a
+vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc|a9ce64f68c86725c06c1b1429e90b04ff96ebf60
 vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml|ebebcf8f367641480cf7d512fc06e6ab777527be
-vendor/lib/mediadrm/libwvdrmengine.so|29a495f4df7d7f82c1dbb388e1c3fb63913ecac9
-vendor/lib64/libwvhidl.so|a74ca1a46b292d692cc4bfa04301865286f5b94d
-vendor/lib64/mediadrm/libwvdrmengine.so|4153eeca0be13fc370727208e3476322ca7e0677
+vendor/lib64/mediadrm/libwvdrmengine.so|d374c6da70cb612b94d537f629eb66b2467c7e8d|907210f5e151fde9e517ebdc302b619cc8fc7fff
+vendor/lib64/libwvhidl.so|0c6527e540f89e9f007306061003c991ef10da0e|0bbd61687d708cf657da4890403730bf8f887899
 
 # DSP - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
 vendor/bin/dspservice|a7344fc3d27a49df30858ebc3f73ee5818e752d4
@@ -626,17 +625,17 @@ vendor/firmware/leia_pfp_470.fw
 vendor/firmware/leia_pm4_470.fw
 vendor/firmware/stm_fts_production_limits.csv
 
-# Firmware (Adreno) - from nabu V14.0.5.0.TKXCNXM
+# Firmware (Adreno) - from nabu OS1.0.18.0.TKXINXM
 vendor/firmware/a612_rgmu.bin|cb8705d5bc417e53863ed16ab0bed2fc1489646f
 vendor/firmware/a618_gmu.bin|0c211ef8a3246d649a4ae52a926d128b61e3c264
 vendor/firmware/a630_gmu.bin|32bb4acc7767c47ddb487ed7cb998d465ee462f2
 vendor/firmware/a630_sqe.fw|6526cbb24d614dd67dc18e3c80d5c4374a0b3f63
 vendor/firmware/a640_gmu.bin|fb1eab0dd5f313abf31441e2209c9398da7df98b
 vendor/firmware/a640_zap.b00|7afc31984d7eeacdd0fc78118ad8fa46c9b3e4ee
-vendor/firmware/a640_zap.b01|b3ccbf9dacf89af7c19ec6a7c36fe958e3815228
+vendor/firmware/a640_zap.b01|ef70a4c7881258d99229ab4cf3f6f484685e06ba
 vendor/firmware/a640_zap.b02|27d26ca0ae982c065fb7ab58be73bf3ca2e8bdf3
-vendor/firmware/a640_zap.elf|f83b5944e66aa11b1b35cb63cc99ba64792adfdb
-vendor/firmware/a640_zap.mdt|3f8b6647705ccb07efc0a27fff235d8d4775f3a1
+vendor/firmware/a640_zap.elf|a71338fd5704a308cbef8c001ca5bb1cb8b31f15
+vendor/firmware/a640_zap.mdt|bc588e793de942b798513cba49f9145612f1e8eb
 
 # Gatekeeper - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti|2e33e885b92e413440511049025497945d6b8484
@@ -772,25 +771,25 @@ vendor/lib64/libsdm-disp-vndapis.so|60da199073d2b0881bf075190a644b332503f39c
 vendor/lib64/libsdmextension.so|e10d29f29b7a53b75369e58e8a165b2b86609f26
 vendor/lib64/libtinyxml2_1.so|ff32deb110acb02cb5def5f3404f9064c1276483
 
-# Hotword Enrollment - from raphael-user-11-RKQ1.200826.002-V12.5.2.0.RFKMIXM-release-keys
-product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk|62e301d2f386771facd9a9aa546c0fcc241116da
-product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk|8639661f6fad570723bc6f2759da76604bd804fa
-system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml|563a58554d9c0dd0608552b644fbf74519a447bb
-system_ext/framework/com.android.hotwordenrollment.common.util.jar|bef92589e75a6da6043f85f4b9b0e85866429624
+# Hotword Enrollment - from nabu OS1.0.18.0.TKXINXM
+product/priv-app/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND.apk|5263386e75fe0b7a9e7e15e858e44cceb287f447
+product/priv-app/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND.apk|2cc58266dec9d3ac915b0e3e65d554b0b3daf5cd
+system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml|99cfd80965c170f4885a7dd62c0eaad1a0c7840f
+system_ext/framework/com.android.hotwordenrollment.common.util.jar|7549028e83df9783ea5c7fbf78e5d904e2de0cf7
 
-# IPA-Firmware
-vendor/firmware/ipa_fws.b00
-vendor/firmware/ipa_fws.b01
-vendor/firmware/ipa_fws.b02
-vendor/firmware/ipa_fws.b03
-vendor/firmware/ipa_fws.b04
-vendor/firmware/ipa_fws.elf
-vendor/firmware/ipa_fws.mdt
-vendor/firmware/ipa_uc.b00
-vendor/firmware/ipa_uc.b01
-vendor/firmware/ipa_uc.b02
-vendor/firmware/ipa_uc.elf
-vendor/firmware/ipa_uc.mdt
+# IPA-Firmware - from nabu OS1.0.18.0.TKXINXM
+vendor/firmware/ipa_fws.b00|27a002d0b54085560b38805fb940d6b960707a48
+vendor/firmware/ipa_fws.b01|6c1c78786a56a71d6ef5cf4c5f2505ce5a6854a1
+vendor/firmware/ipa_fws.b02|d6fe0e71d363af74132569d85e9dc6e5d9cc1800
+vendor/firmware/ipa_fws.b03|c07cfef57f8f694b4cee41e78700614efbedf2bc
+vendor/firmware/ipa_fws.b04|e3552692a635dceca369cab6d9349091b669c80a
+vendor/firmware/ipa_fws.elf|e7210adcb858a754d90b5d102d1838a380c763e7
+vendor/firmware/ipa_fws.mdt|ee0e71b260bcddf20f47375de078a187269447c8
+vendor/firmware/ipa_uc.b00|eb39c03229e8aa6b98d85dedddcd6578d7bc8595
+vendor/firmware/ipa_uc.b01|513f07f2614aae52e5c8b9a41388cc9d9b8eed38
+vendor/firmware/ipa_uc.b02|3b10a38f61f127c190649d7cbf8ae508c797e924
+vendor/firmware/ipa_uc.elf|028298d681ea6aebc95b4f03c103eb2d4f681580
+vendor/firmware/ipa_uc.mdt|5c86b041c005d41f7e232fdd0fd5df8e6f9c751f
 
 # IRQ-Balance
 vendor/bin/msm_irqbalance|b075c2f4092c175950a2c26d19bf2013e2efd6d5
