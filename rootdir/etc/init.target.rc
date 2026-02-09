@@ -293,6 +293,7 @@ service vendor.mdm_launcher /vendor/bin/sh /vendor/bin/init.mdm.sh
     class main
     oneshot
 
+
 on property:vold.decrypt=trigger_restart_framework
     start cnss_diag
 
@@ -357,6 +358,7 @@ service remosaic_daemon /system/vendor/bin/remosaic_daemon
    user camera
    group camera
 
+
 on post-fs-data
     chmod 0666 /dev/migt
     restorecon /dev/migt
@@ -374,7 +376,3 @@ on post-fs-data
     restorecon /sys/module/migt/parameters/super_task_max_num
     chmod 0777 /sys/module/migt/parameters/migt_ceiling_freq
     restorecon /sys/module/migt/parameters/migt_ceiling_freq
-
-on property:sys.boot_completed=1
-    # Disable native stats collection service
-    stop statsd
