@@ -248,9 +248,7 @@ ro.hwui.text_large_cache_height=1024
 config.disable_rtt=true
 
 #Bringup properties
-persist.sys.force_sw_gles=1
 persist.vendor.radio.atfwd.start=true
-ro.kernel.qemu.gles=0
 qemu.hw.mainkeys=0
 
 #Expose aux camera for all packages
