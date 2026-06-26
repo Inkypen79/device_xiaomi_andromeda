@@ -21,11 +21,6 @@
         <fqname>@2.4::ICameraProvider/legacy/0</fqname>
     </hal>
     <hal format="hidl">
-        <name>android.hardware.dumpstate</name>
-        <transport>hwbinder</transport>
-        <fqname>@1.0::IDumpstateDevice/default</fqname>
-    </hal>
-    <hal format="hidl">
         <name>android.hardware.gatekeeper</name>
         <transport>hwbinder</transport>
         <fqname>@1.0::IGatekeeper/default</fqname>

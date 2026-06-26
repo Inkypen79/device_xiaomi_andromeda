@@ -1445,12 +1445,10 @@ vendor/etc/wifi/aoa_cldb_falcon.bin|7511e868c40e66e9758568b7112894cbce2650a4
 vendor/etc/wifi/aoa_cldb_swl14.bin|2a3be07a8f24bc1b9798d07c7133b0f71b77738f
 
 # Xiaomi
-vendor/bin/hw/android.hardware.dumpstate@1.0-service.xiaomi
 vendor/bin/hw/vendor.xiaomi.hardware.citsensorservice@1.1-service
 vendor/bin/mlipayd@1.1
 vendor/bin/mtd@1.2
 vendor/bin/tidad@1.2
-vendor/etc/init/android.hardware.dumpstate@1.0-service.xiaomi.rc
 vendor/etc/init/vendor.xiaomi.hardware.citsensorservice@1.1-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.mtdservice@1.2-service.rc
