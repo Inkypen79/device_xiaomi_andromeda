@@ -194,6 +194,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     IFAAService
 
+# ION
+$(call soong_config_set_bool,libion,legacy_impl,true)
+
 # IPA
 PRODUCT_PACKAGES += \
     ipacm \
