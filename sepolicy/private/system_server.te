@@ -1,2 +1,4 @@
 # Set tethering properties
 set_prop(system_server, device_config_tethering_prop)
+
+allow system_server persist_slider_prop:file { getattr map open read };

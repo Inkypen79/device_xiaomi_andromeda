@@ -1,3 +1,2 @@
 allow system_server proc_last_kmsg:file r_file_perms;
-allow system_server persist_slider_prop:file { getattr map open read };
 allow system_server properties_device:dir r_dir_perms;

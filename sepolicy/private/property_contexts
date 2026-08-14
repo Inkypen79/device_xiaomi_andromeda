@@ -1,2 +1,3 @@
 media.wfd.max_resolution                        u:object_r:exported_default_prop:s0
 persist.device_config.tethering.                u:object_r:device_config_tethering_prop:s0
+persist.slider.                                 u:object_r:persist_slider_prop:s0

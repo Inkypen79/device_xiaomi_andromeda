@@ -1,1 +1,2 @@
 system_internal_prop(device_config_tethering_prop)
+system_internal_prop(persist_slider_prop)

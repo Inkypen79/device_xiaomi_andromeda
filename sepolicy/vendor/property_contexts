@@ -35,7 +35,6 @@ persist.serial.enable                        u:object_r:vendor_qti_init_shell_pr
 persist.sys.ext4.dataesb                     u:object_r:vendor_qti_init_shell_prop:s0
 
 # Misc
-persist.slider.                              u:object_r:persist_slider_prop:s0
 ro.hardware.chipname                         u:object_r:exported_default_prop:s0
 ro.hwversion                                 u:object_r:ro_hwversion_prop:s0
 vendor.sys.rpmb_state                        u:object_r:vendor_tee_listener_prop:s0
