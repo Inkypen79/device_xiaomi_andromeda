@@ -4,9 +4,6 @@ genfscon sysfs /devices/platform/soc/ae00000.qcom,mdss_mdp/backlight/panel0-back
 genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-05/c440000.qcom,spmi:qcom,pm8150l@5:qcom,wled@d800/backlight/backlight/brightness      u:object_r:vendor_sysfs_graphics:s0
 genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-05/c440000.qcom,spmi:qcom,pm8150l@5:qcom,wled@d800/backlight/backlight/max_brightness  u:object_r:vendor_sysfs_graphics:s0
 
-# DC Dimming
-genfscon sysfs /devices/platform/soc/soc:qcom,dsi-display-primary/msm_fb_ea_enable                                                         u:object_r:vendor_sysfs_graphics:s0
-
 # Extcon
 genfscon sysfs /devices/platform/vendor/vendor:extcon_usb1/                                                                                u:object_r:sysfs_extcon:s0
 

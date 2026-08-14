@@ -24,13 +24,13 @@ allow xiaomiparts system_app_data_file:{
 # Allow binder communication with gpuservice
 binder_call(xiaomiparts, gpuservice)
 
-# Allow xiaomiparts to read and write to cgroup/vendor_sysfs_graphics/sysfs_leds
+# Allow xiaomiparts to read and write to cgroup/sysfs_dc_dim/sysfs_leds
 r_dir_file(xiaomiparts, sysfs_leds)
-r_dir_file(xiaomiparts, vendor_sysfs_graphics)
+r_dir_file(xiaomiparts, sysfs_dc_dim)
 allow xiaomiparts {
   cgroup
   sysfs_leds
-  vendor_sysfs_graphics
+  sysfs_dc_dim
 }:file rw_file_perms;
 
 # Allow xiaomiparts access to slider properties
